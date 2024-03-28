@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What We Do</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Gill Sans", sans-serif;
+            background-color: #192B14; 
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: auto;
+        }
+        
+        .navbar {
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+            background-color: #6AD4DD;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            grid-column: 1 / span 12;
+        }
+
+        .what-we-do {
+            grid-column: 1 / span 10; 
+            padding: 0px; 
+            margin-top: 40px; 
+            height: 600px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .what-we-do h2 {
+            text-align: center;
+            margin-top: 200px;
+            color:#fff;
+        }
+
+        .mySlides {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .mySlides:nth-child(1) {
+            animation: fade 10s infinite;
+        }
+
+        .mySlides:nth-child(2) {
+            animation: fade 10s infinite 2.5s;
+        }
+
+        .mySlides:nth-child(3) {
+            animation: fade 10s infinite 5s;
+        }
+
+        .mySlides:nth-child(4) {
+            animation: fade 10s infinite 7.5s;
+        }
+
+        @keyframes fade {
+            0% { opacity: 0; }
+            25% { opacity: 1; }
+            75% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        
+        .objective h1{
+            color: #fff;
+            text-align: center;
+        }
+
+        .objective-content1 {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .objective-content2 {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            margin-left:400px;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .objective-content p {
+            margin-bottom: 0;
+        }
+
+    
+
+        .goal-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #192B14;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        .goal-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .goal-image {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .goal-item:hover .goal-image {
+            transform: scale(1.1);
+        }
+
+        .goal-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #000;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .goal-item:hover .goal-caption {
+            opacity: 1;
+        }
+
+
+        .what-for-container {
+            max-width: 800px;
+            width:600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+
+        }
+
+        .what-for-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .what-for-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .what-for-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-sizing: border-box;
+    
+        }
+
+        .item-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .item-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .item-description {
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .what-for-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .what-for-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
+        .advocacy-container {
+            grid-template-columns: minmax(5,1fr);
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+            display: inline-block;
+            width:700px;
+        }
+
+        .advocacy-header {
+            text-align: center;
+            font-size: 28px;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .advocacy-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .advocacy-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .advocacy-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-icon {
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="what-we-do">
+        <div class="fade"> 
+            <img class="mySlides" src="Assets/placeholder.jpg" style="width:100%">
+            <img class="mySlides" src="Images/hitoshi-namura-MyiYvI-EKis-unsplash.jpg" style="width:100%">
+            <img class="mySlides" src="img_rr_03.jpg" style="width:100%">
+            <img class="mySlides" src="img_rr_04.jpg" style="width:100%">
+        </div>
+        <h2>What We Do</h2>
+    </div>
+    <div class="objective">
+        <h1 style="color:#fff;text-align: center;">Objective</h1>
+        <div class="objective-content1">
+            <p class="objContent1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, inventore officia vero quisquam autem hic unde similique soluta, quidem quia dicta harum repellat! Provident deleniti nihil illum voluptas! Temporibus, nam.</p>
+            <img src="place" class="objImg1">
+        </div>
+    
+        <div class="objective-content2">
+            <p class="objContent2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, inventore officia vero quisquam autem hic unde similique soluta, quidem quia dicta harum repellat! Provident deleniti nihil illum voluptas! Temporibus, nam.</p>
+            <img src="place" class="objImg2">
+        </div>
+    </div>
+    <div class="goal-container">
+        <h1 style="color:#fff;text-align: center;">Goals</h1>
+        <div class="goal-item">
+            <img class="goal-image" src="place.jpg" alt="Image 1">
+            <p>Caption for Image 1</p>
+        </div>
+        <div class="goal-item">
+            <img class="goal-image" src="place.jpg" alt="Image 2">
+            <p>Caption for Image 2</p>
+        </div>
+        <div class="goal-item">
+            <img class="goal-image" src="place.jpg" alt="Image 3">
+            <p>Caption for Image 3</p>
+        </div>
+
+    </div>
+    <div class="what-for-container">
+        <h2 class="what-for-header">What For</h2>
+        <div class="what-for-grid">
+            <div class="what-for-item">
+                <div class="item-icon">Icon 1</div>
+                <div class="item-title">Purpose 1</div>
+                <div class="item-description">Description of purpose 1</div>
+            </div>
+            <div class="what-for-item">
+                <div class="item-icon">Icon 2</div>
+                <div class="item-title">Purpose 2</div>
+                <div class="item-description">Description of purpose 2</div>
+            </div>
+            <div class="what-for-item">
+                <div class="item-icon">Icon 3</div>
+                <div class="item-title">Purpose 3</div>
+                <div class="item-description">Description of purpose 3</div>
+            </div>
+            <div class="what-for-item">
+                <div class="item-icon">Icon 3</div>
+                <div class="item-title">Purpose 3</div>
+                <div class="item-description">Description of purpose 3</div>
+            </div>
+        </div>
+    </div>
+    <div class="advocacy-container">
+        <h2 class="advocacy-header">Our Advocacy</h2>
+        <div class="advocacy-cards">
+            <div class="advocacy-card">
+                <div class="card-content">
+                    <div class="card-icon">Icon 1</div>
+                    <h3 class="card-title">Advocacy 1</h3>
+                    <p class="card-description">Description of advocacy 1</p>
+                </div>
+            </div>
+            <div class="advocacy-card">
+                <div class="card-content">
+                    <div class="card-icon">Icon 2</div>
+                    <h3 class="card-title">Advocacy 2</h3>
+                    <p class="card-description">Description of advocacy 2</p>
+                </div>
+            </div>
+            <div class="advocacy-card">
+                <div class="card-content">
+                    <div class="card-icon">Icon 3</div>
+                    <h3 class="card-title">Advocacy 3</h3>
+                    <p class="card-description">Description of advocacy 3</p>
+                </div>
+            </div>
+            <div class="advocacy-card">
+                <div class="card-content">
+                    <div class="card-icon">Icon 3</div>
+                    <h3 class="card-title">Advocacy 3</h3>
+                    <p class="card-description">Description of advocacy 3</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
