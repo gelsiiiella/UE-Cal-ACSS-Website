@@ -1053,9 +1053,10 @@ p{
 }
 
 .blog-article h3 {
-    font-size: 20px;
+    font-size: 2vw;
     margin-bottom: 10px;
     text-align: center;
+    font-family:'Merriweather'
 }
 
 .blog-article img {
