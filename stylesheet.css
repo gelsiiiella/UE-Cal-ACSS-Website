@@ -13,7 +13,9 @@ body{
 .header-grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    padding: 12px 20px;
+    grid-column: 12;
+    padding: 12px 30px;
+    
 }
 header > a{
     grid-area: 1 / 1 / 1 / 2;
@@ -60,13 +62,13 @@ header > a > img:nth-child(1){
 }
 @keyframes floatAnimation{
     0%{
-        transform: translateY(0); /* Start position */
+        transform: translateY(0); 
     }
     50%{
-        transform: translateY(-5px); /* Move up */
+        transform: translateY(-5px); 
     }
     100%{
-        transform: translateY(0); /* Back to start position */
+        transform: translateY(0);
     }
 }
 
