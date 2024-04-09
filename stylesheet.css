@@ -1050,6 +1050,7 @@ p{
     margin: 10px;
     width: 65%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease forwards;
 }
 
 .blog-article h3 {
@@ -1086,4 +1087,21 @@ p{
 
 .blog-article a[type="button"]:hover {
     background-color: #0056b3;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-article {
+        width: calc(50% - 20px); 
+    }
 }
