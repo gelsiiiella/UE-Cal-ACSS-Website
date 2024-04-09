@@ -426,6 +426,16 @@ p{
     text-align: justify;
 }
 
+.image-gallery img{
+    width:100%;
+    height:32%;
+}
+
+.image-gallery1 img{
+    width:100%;
+    height:25%;
+}
+
 .mivi {
     grid-column: 1 / span 12;
     grid-row: 1;
@@ -492,14 +502,18 @@ p{
 .image-gallery{
     grid-column: 12 / span 12;
     grid-row: 1;
+    transition: transform 0.3s ease;
 
 }
 
 .image-gallery1{
     grid-column: 12 / span 12;
     grid-row: 2;
+    transition: transform 0.3s ease;
 
 }
+
+
 
 .image-gallery2{
     grid-column: 12 / span 12;
@@ -638,7 +652,12 @@ p{
     color:#fff;
     width:300px;
     margin-bottom: 20px;
+    transition: transform 0.3s ease;
     
+}
+
+.updates .section-content:hover {
+    transform: scale(1.05);
 }
 .updates h3 {
     color: #fff;
