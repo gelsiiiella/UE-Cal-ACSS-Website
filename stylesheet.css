@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body{
+    background-color: #000000;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 12px 20px;
+}
+header > a{
+    grid-area: 1 / 1 / 1 / 2;
+    padding-top: 4%;
+    background: #000000;
+    width: 60%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0).18;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 10;
+    animation: floatAnimation 5s infinite alternate;
+}
+header > a > img:nth-child(1){
+    width: 40px;
+}
+.pages{
+    grid-area: 1 / 2 / 1 / 7;
+    margin-top: 0%;
+    margin-left: -5%;
+    padding-top: 2%;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(37,92,29,1) 0%, rgba(37,92,29,1) 0%, rgba(17,17,17,1) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0).18;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 10;
+}
+.pages > a{
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+#pages-margin{
+    margin-right: 2%;
+}
+.pages > a:hover{
+    color: #fcdd2f;
+}
+@keyframes floatAnimation{
+    0%{
+        transform: translateY(0); /* Start position */
+    }
+    50%{
+        transform: translateY(-5px); /* Move up */
+    }
+    100%{
+        transform: translateY(0); /* Back to start position */
+    }
+}
+
+.body-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.graphics1{
+    grid-area: 1 / 1 / 1 / 4;
+    height: 180px;
+    width: 96%;
+    background-color: #2A2828;
+    border-radius: 20px;
+    opacity: 0.7;
+    margin-top: 8%;
+}
+.graphics2{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 85%;
+    height: 30%;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+.graphics2 > img{
+    width: 40px;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#text1{
+    margin-top: -15%;
+    margin-left: 24%;
+}
+.graphics3{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+.graphics3 > img{
+   width: 50px;
+   margin-left: 5%;
+}
+#text2{
+    margin-top: -90%;
+    margin-left: 140%;
+}
+
+.graphics4{
+    grid-area: 1 / 4 / 1 / 7;
+    margin-top: 8%;
+    margin-left: 1%;
+    height: 180px;
+    border-radius: 20px;
+    opacity: 0.7;
+    border: 1px solid white;
+}
+.graphics4 > p{
+    margin-left: 4%;
+}
+.graphics4 > p:nth-child(1){
+    width: 70%;
+    border: 2px solid #255c1d;
+    border-radius: 20px;
+}
+.graphics4 > p:nth-child(2){
+    width: 52%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.graphics4 > p:nth-child(3){
+    width: 90%;
+    margin-top: 2%;
+}
+.graphics4 > a{
+    margin-left: 4%;
+}
+#text3{
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    padding: 2%;
+}
+
+.section1{
+    grid-area: 2 / 1 / 2 / 6;
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: #255c1d;
+    margin-top: -54%;
+}
+#text4{
+    animation: colorChange 5s infinite alternate;
+}
+@keyframes colorChange {
+    0% {
+      color: #2d7922;
+    }
+    100% {
+      color: #255c1d;
+    }
+  }
+#text5{
+    margin-top: -15%;
+    font-family: "Merriweather";
+}
+
+.section2{
+    grid-area: 2 / 5 / 2 / 7;
+}
+.section2 > p{
+    color: white;
+    font-family: "Merriweather";
+    text-align: end;
+    margin-top: -96%;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.section2 > p > img{
+    width: 40px;
+    opacity: 0.5;
+}
+
+.section3{
+    grid-area: 1 / 7 / 2 / 13;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.section3 > img{
+    border-radius: 20px;
+}
+
+.section4{
+    grid-area: 3 / 6 / 3 / 13;
+}
+.section4 > p{
+    color: white;
+    background: linear-gradient(135deg rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0).18;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 10;
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    animation: floatAnimation 5s infinite alternate;
+}
+#text6{
+    width: 30%;
+    margin-left: 24%;
+    margin-top: -52%;
+}
+#text7{
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 0%;
+}
+#text8{
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 0%;
+}
+#text9{
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 0%;
+}
+
+.section5{
+    grid-area: 4 / 1 / 4 / 7;
+}
+#text10{
+    color: #fcdd2f;
+    font-size: 12px;
+    font-family: "Montserrat";
+    margin-top: -13%;
+    opacity: 0.6;
+}
+#text11{
+    padding: 8px 80px;
+    background-color: #fcdd2f;
+    color: black;
+    border-radius: 20px;
+    opacity: 0.6;
+    text-decoration: none;
+    font-family: "Merriweather";
+    font-size: 12px;
+}
+
+.section6{
+    grid-area: 5 / 1 / 5 / 13;
+    display: flex;
+}
+.section6 > p{
+    color: white;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#text12, #text13, #text14, #text15, #text16,#text17, #text18, #text19, #text20{
+    margin-right: 2%;
+} 
+#text12, #text13, #text14, #text15, #text16,#text17, #text18, #text19, #text20, #text21{
+    padding: 10px;
+    border: 2px solid #255c1d;
+    border-radius: 20px;
+    animation: slide 5s linear infinite alternate-reverse;
+} 
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(65%);
+    }
+}
+
+.section7{
+    grid-area: 6 / 1 / 6 / 13;
+    color: white;
+    font-family: "Merriweather";
+}
+#text22{
+    text-align: end;
+    justify-content: end;
+    font-size: 18px;
+    margin-top: 2%;
+}
+#text23{
+    text-align: end;
+    font-size: 14px;
+}
+
+.section8{
+    grid-area: 7 / 1 / 7 / 13;
+}
+.section8 > img{
+    width: 80%;
+}
+#graphics8{
+    margin-top: -90%;
+    margin-left: 0%;
+}
+
+.graphics7{
+    grid-area: 7 / 1 / 7 / 13;
+    margin-top: -18%;
+}
+.graphics7 > a > img{
+    border-radius: 20px;
+}
+.graphics9{
+    grid-area: 7 / 3 / 8 / 5;
+    margin-top: -107%;
+}
+.graphics9 > a > img{
+    border-radius: 20px;
+    margin-left: -15%;
+}
+.graphics10{
+    grid-area: 7 / 6 / 7 / 13;
+    margin-top: -30%;
+}
+.graphics10 > a > img{
+    border-radius: 20px;
+    margin-left: -1%;
+}
+.graphics12{
+    grid-area: 7 / 8 / 7 / 13;
+    margin-top: -42%;
+}
+.graphics12 > a > img{
+    border-radius: 20px;
+    margin-left: -8%;
+}
+
+.graphics8{
+    grid-area: 8 / 1 / 7 / 13;
+    margin-top: -4%;
+}
+.graphics8 > a > img{
+    border-radius: 20px;
+}
+.graphics11{
+    grid-area: 8 / 6 / 8 / 7;
+    margin-top: -40%;
+}
+.graphics11 > a > img{
+    border-radius: 20px;
+    margin-left: -2%;
+}
+.graphics13{
+    grid-area: 8 / 8 / 8 / 9;
+    margin-top: -160px;
+}
+.graphics13 > a > img{
+    border-radius: 20px;
+    margin-left: -102px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: #fcdd2f;
+    margin-top: 3%;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+    font-size: 12px;
+    font-family: "Montserrat";
+}
+
+.footer-grid > p{
+    grid-area: 1 / 1 / 1  6;
+    margin-left: 30px;
+}
+.footer-grid > a{
+    grid-area: 1 / 1 / 1  6;
+    margin-left: 30px;
+    text-decoration: none;
+}
