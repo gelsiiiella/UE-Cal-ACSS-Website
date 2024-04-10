@@ -1065,7 +1065,7 @@ p{
 }
 
 .blog-article a[type="button"]:hover {
-    background-color: #255c1d;
+    background-color: #555;
 }
 
 @keyframes fadeInUp {
