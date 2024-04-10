@@ -1133,6 +1133,7 @@ a{
 .pic{
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('Assets/membg.jpg');
 
 }
 
