@@ -1918,6 +1918,7 @@ span b{
     padding: 20px;
     border-radius: 10px;
     color:#fff;
+    display:flex;
 }
 .social-media-item {
     padding: 20px;
