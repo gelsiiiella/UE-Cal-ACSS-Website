@@ -1133,7 +1133,7 @@ a{
 .pic{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('Assets/membg.jpg');
+
 
 }
 
@@ -1180,7 +1180,7 @@ a{
     margin-right: 20px;
   }
 .main{
-    background-image: url(membg.jpg);
+    background-image: url(Assets/membg.jpg);
     border:solid;
     display:flex;
     height: 90dvh;
