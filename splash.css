@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+html {
+    background-color: antiquewhite;
+    background-image: url('SplashBg.png');
+    background-size: cover;
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set full viewport height */
+}
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(255, 255, 255);
+    height: 43%;
+    width: 90%; 
+    max-width: 1100px; 
+    background-color: rgb(0, 0, 0,.6);
+    text-align: center;
+    color: bisque;
+    padding-top: 20px;
+}
+#button{
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 0, 0,.5);
+}  

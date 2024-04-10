@@ -1,0 +1,208 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size:30px;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+.pic{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.nav {
+    display: flex;
+    height: 70px;
+    place-items: center;
+    justify-content: space-between;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    font-weight: bold;
+    font-size:30px;
+    gap:20px;
+
+}
+.div2{
+    width: 30%;
+
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+    width: 50%;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    gap:20px;
+}
+.selected{
+    background-color: rgb(75, 46, 46);
+    border-radius:20px;
+    padding:5px 10px;
+    color: white;
+}
+  
+.text_nav {
+    height: 70%;
+    margin-right: 20px;
+}
+
+
+.main{
+    background-image: url(devpagebg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid;
+    height: 30dvh;  
+}
+
+.title{
+    border:solid goldenrod;
+    color:white;
+    text-align: center;
+    width:50%;
+    font-size:11dvh;
+}
+.dev{
+    background-color: rgb(45, 39, 39);
+    display:flex;
+    height:100dvh;
+    align-items: center;
+    justify-content: center;
+
+}
+.indv{
+    background-color: rgb(255, 255, 255, .8);
+    border-radius:30px;
+    height:80%;
+    width:80%;
+    transition: ease .5s;
+}
+
+.indv:hover{
+    transform: scale(1.03);
+}
+
+.top{
+    border-bottom:solid;
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+    height:25dvh;
+}
+.topPic{
+    border:solid;
+    height:150px;
+    width:150px;
+    border-radius: 100px;
+}
+.tp1{
+    background-image: url(mark1.jpg);
+}
+.tp2{
+    background-image: url(ange.JPG);
+}
+.tp3{
+    background-image: url(lyka2.jpg);
+}
+
+
+
+.bot{
+    display: flex;
+    height:65%;
+}
+.left{
+    height:100%;
+    width:70%;
+}
+.txt{
+    text-align: justify;
+    margin:50px;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:30%;
+    
+}
+.insPic{
+    border:solid;
+    border-radius: 30px;
+    height:90%;
+    width:95%;
+}
+.ip1{
+    background-image: url(mark2.jpg);
+}
+.ip2{
+    background-image: url(ange2.JPG);
+}
+.ip3{
+    background-image: url(lyka.jpg);
+}
+
+
+
+.marleft{
+    margin-left:-50px;
+}
+.marright{
+    margin-right:-50px;
+}
+.role{
+    font-size:20px;
+}
+span b{
+    font-size: 25px;
+}
+
+.returnTop {
+    position: sticky;
+    position: fixed;
+    z-index: 50;
+    bottom: 0px;
+    right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    button{
+      background-color: rgb(75, 46, 46,.5);
+      padding-left: 50px;
+      padding-right: 50px;
+      padding: 20px;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      color: aliceblue;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+}
