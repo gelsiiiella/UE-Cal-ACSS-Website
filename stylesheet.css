@@ -1994,6 +1994,7 @@ span b{
 }
 .form-group {
     margin-bottom: 20px;
+    margin:0 auto;
 }
 label {
     display: block;
