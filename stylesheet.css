@@ -1899,9 +1899,18 @@ span b{
     grid-column: 2 / span 10;
     padding: 20px;
 }
-.section-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
+.section-heading0 {
+    color: #255c1d; 
+    font-family: "Montserrat";
+    grid-column: 1 /span 12;
+    grid-row: 10;
+    opacity: 0.7;
+    padding: 5px;
+    animation: changeColor 5s linear infinite;
+    text-align: center;
+    font-size: 6vw;
+    margin-top: 150px; 
+
 }
 .section-content {
     grid-column: 2 / span 8;
@@ -1953,7 +1962,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: calc(100% - 22px);
+    width: calc(100% - 50px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
