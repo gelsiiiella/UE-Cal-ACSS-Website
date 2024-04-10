@@ -1956,7 +1956,9 @@ span b{
     animation: slide 5s linear infinite;
 }
 
-
+.section-content2 {
+    margin:0 auto;
+}
 .section-content {
     grid-column: 2 / span 8;
     margin-top: 20px;
