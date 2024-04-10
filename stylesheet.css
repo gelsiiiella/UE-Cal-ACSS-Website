@@ -1280,10 +1280,6 @@ a{
 }
 
 
-
-
-
-
 .foodDesc{
     display: flex;
     height:80dvh;
@@ -1540,23 +1536,27 @@ a{
 .OHContent{
     margin-top: 10px;
     height: 80dvh;
+    color: white;
     
 }
 
 
 .OHContent{
     height:120dvh;
+    color: white;
 }
 
 .OH_top{
     display:flex;
     height:50%;
+    color: white;
 
 }
 
 .OH_top_content{
     align-content: center;
     width: 50%;
+    color: white;
 }
 .pic{
     background-size: cover;
