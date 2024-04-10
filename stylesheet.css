@@ -473,14 +473,14 @@ p{
 }
 
 .image-gallery{
-    grid-column: 12 / span 12;
+    grid-column: 11 / span 12;
     grid-row: 1;
     transition: transform 0.3s ease;
 
 }
 
 .image-gallery1{
-    grid-column: 12 / span 12;
+    grid-column: 11 / span 12;
     grid-row: 2;
     transition: transform 0.3s ease;
 
