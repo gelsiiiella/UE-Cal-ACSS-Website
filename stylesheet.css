@@ -1206,15 +1206,14 @@ a{
     height: 70vh;
     gap: 3%;
     align-items: center;
-    background-color: rgb(45, 39, 39);
     justify-content: center;
 }
 
 .fc {
     height: 50vh;
     width: 20%;
-    position: relative; /* Ensure proper positioning for overlay effect */
-    overflow: hidden; /* Hide overflow from the image */
+    position: relative;
+    overflow: hidden; 
 }
 
 .container {
@@ -1232,7 +1231,7 @@ a{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 140, 186, 0.5); /* Adjust the overlay color and opacity */
+    background-color: rgba(0, 140, 186, 0.5); 
     opacity: 0;
     transition: opacity 0.5s ease;
     display: flex;
@@ -1460,6 +1459,7 @@ a{
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    color:white;
    
 }
 .f12:hover{
@@ -1492,7 +1492,7 @@ a{
 .f15{
     height: 90%;
     width: 45%;
-    background-image: url('Assets/1st');
+    background-image: url('Assets/1st1.png');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
