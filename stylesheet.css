@@ -1126,7 +1126,7 @@ p{
 }
 a{
     text-decoration: none;
-    color:black;
+    color:white;
 
 }
 
@@ -1195,23 +1195,6 @@ a{
     width: 80dvh;
     margin-left: 5%;   
     gap:5px;
-}
-.pic1{
-    width: 33%;
-    height: 100%;
-    background-image: url(Adobo.jpeg);
-
-}
-.pic2{
-    width: 33%;
-    height: 100%;
-    background-image: url(Sinigang.jpg);
-
-}
-.pic3{
-    width: 33%;
-    height: 100%;
-    background-image: url(Sisig.jpeg);
 }
 
 .titleRight{
@@ -1325,7 +1308,7 @@ a{
 .f1{
     height: 90%;
     width: 45%;
-    background-image: url(adviser.jpg);
+    background-image: url('Assets/adviser.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1339,7 +1322,7 @@ a{
 .f2{
     height: 90%;
     width: 45%;
-    background-image: url(pres.jpg);
+    background-image: url('Assets/pres.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1352,7 +1335,7 @@ a{
 .f3{
     height: 90%;
     width: 45%;
-    background-image: url(vice.jpg);
+    background-image: url('Assets/vice.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1364,7 +1347,7 @@ a{
 .f4{
     height: 90%;
     width: 45%;
-    background-image: url(viceEx.jpg);
+    background-image: url('Assets/viceEx.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1376,7 +1359,7 @@ a{
 .f5{
     height: 90%;
     width: 45%;
-    background-image: url(sec.jpg);
+    background-image: url('Assets/sec.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1388,7 +1371,7 @@ a{
 .f6{
     height: 90%;
     width: 45%;
-    background-image: url(tres.jpg);
+    background-image: url('Assets/tres.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1400,7 +1383,7 @@ a{
 .f7{
     height: 90%;
     width: 45%;
-    background-image: url(audi.jpg);
+    background-image: url('Assets/audi.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1412,7 +1395,7 @@ a{
 .f8{
     height: 90%;
     width: 45%;
-    background-image: url(BM.jpg);
+    background-image: url('Assets/BM.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1424,7 +1407,7 @@ a{
 .f9{
     height: 90%;
     width: 45%;
-    background-image: url(BM.jpg);
+    background-image: url('Assets/BM.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1436,7 +1419,7 @@ a{
 .f9{
     height: 90%;
     width: 45%;
-    background-image: url(logi.jpg);
+    background-image: url('Assets/logi.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1449,7 +1432,7 @@ a{
 .f10{
     height: 90%;
     width: 45%;
-    background-image: url(md.jpg);
+    background-image: url('Assets/MD.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1461,7 +1444,7 @@ a{
 .f11{
     height: 90%;
     width: 45%;
-    background-image: url(pr.jpg);
+    background-image: url('Assets/pr1.png');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1473,7 +1456,7 @@ a{
 .f12{
     height: 90%;
     width: 45%;
-    background-image: url(4th.jpg);
+    background-image: url('Assets/4th.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1485,7 +1468,7 @@ a{
 .f13{
     height: 90%;
     width: 45%;
-    background-image: url(3rd.jpg);
+    background-image: url('Assets/3rd.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1497,7 +1480,7 @@ a{
 .f14{
     height: 90%;
     width: 45%;
-    background-image: url(2nd.jpg);
+    background-image: url('Assets/2nd.jpg');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1509,7 +1492,7 @@ a{
 .f15{
     height: 90%;
     width: 45%;
-    background-image: url(1st.jpg);
+    background-image: url('Assets/1st');
     transition: transform 0.3s ease-in-out;
     border-radius: 30px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
@@ -1581,123 +1564,123 @@ a{
 }
 
 .D1{
-    background-image: url(adv1.png);  
+    background-image: url('Assets/adv1.png');  
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D2{
-    background-image: url(adv2.jpg); 
+    background-image: url('Assets/adv2.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D3{
-    background-image: url(pres1.png);  
+    background-image: url('Assets/pres1.png');  
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D4{
-    background-image: url(pres1.jpg);
+    background-image: url('Assets/pres1.jpg');
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D5{
-    background-image: url(vpi1.png);    
+    background-image: url('Assets/vpi1.png');    
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D6{
-    background-image: url(vpi2.png); 
+    background-image: url('Assets/vpi2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D7{
-    background-image: url(vce1.png); 
+    background-image: url('Assets/vce1.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D8{
-    background-image: url(vce2.jpg); 
+    background-image: url('Assets/vce2.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D9{
-    background-image: url(sec2.png);    
+    background-image: url('Assets/sec2.png');    
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D10{
-    background-image: url(sec1.png);
+    background-image: url('Assets/sec1.png');
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D11{
-    background-image: url(tres1.png);  
+    background-image: url('Assets/1st1.jpg');  
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D12{
-    background-image: url(tres2.png); 
+    background-image: url('Assets/tres2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D13{
-    background-image: url(audi1.jpg);   
+    background-image: url('Assets/audi1.jpg');   
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D14{
-    background-image: url(audi2.jpg);
+    background-image: url('Assets/audi2.jpg');
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D15{
-    background-image: url(bm1.png);  
+    background-image: url('Assets/bm1.png');  
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D16{
-    background-image: url(bm2.png); 
+    background-image: url('Assets/bm2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D17{
-    background-image: url(logi1.png); 
+    background-image: url('Assets/1st1.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D18{
-    background-image: url(logi2.png); 
+    background-image: url('Assets/logi2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D19{
-    background-image: url(md1.jpg); 
+    background-image: url('Assets/md1.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D20{
-    background-image: url(md2.png); 
+    background-image: url('Assets/md2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D21{
-    background-image: url(pr1.png); 
+    background-image: url('Assets/pr1.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D22{
-    background-image: url(pr2.jpg); 
+    background-image: url('Assets/pr2.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D23{
-    background-image: url(4th1.png); 
+    background-image: url('Assets/4th1.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D24{
-    background-image: url(4th2.jpg); 
+    background-image: url('Assets/4th2.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D25{
-    background-image: url(3rd1.png); 
+    background-image: url('Assets/3rd1.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D26{
-    background-image: url(3rd2.png); 
+    background-image: url('Assets/3rd2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D27{
-    background-image: url(2nd1.jpg); 
+    background-image: url('Assets/2nd1.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D28{
-    background-image: url(2nd2.png); 
+    background-image: url('Assets/2nd2.png'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D29{
-    background-image: url(1st1.png); 
+    background-image: url('Assets/1st1.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 .D30{
-    background-image: url(1st2.jpg); 
+    background-image: url('Assets/1st2.jpg'); 
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 
