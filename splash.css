@@ -4,7 +4,7 @@
 }
 html {
     background-color: antiquewhite;
-    background-image: url('SplashBg.png');
+    background-image: url('Assets/SplashBg.png');
     background-size: cover;
     height: 100%;
 }
@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set full viewport height */
+    height: 100vh; 
 }
 .intro {
     position: absolute;
