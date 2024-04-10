@@ -1180,7 +1180,7 @@ a{
     margin-right: 20px;
   }
 .main{
-    background-image: url(Assets/membg.jpg);
+    background-image: url('Assets/membg.jpg');
     border:solid;
     display:flex;
     height: 90dvh;
