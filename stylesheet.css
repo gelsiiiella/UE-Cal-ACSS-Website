@@ -1943,6 +1943,10 @@ span b{
     margin-left: -100%;
 }
 
+.image-gallery3:hover img {
+    transform: scale(1.1);
+}
+
 @keyframes slide {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
@@ -1951,6 +1955,7 @@ span b{
 .image-gallery3.animate img {
     animation: slide 5s linear infinite;
 }
+
 
 .section-content {
     grid-column: 2 / span 8;
