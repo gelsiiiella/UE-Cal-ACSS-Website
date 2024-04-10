@@ -1898,6 +1898,7 @@ span b{
     margin-top: 80px;
     grid-column: 2 / span 10;
     padding: 20px;
+    grid-row: 1;
 }
 
 .section0 h2{
