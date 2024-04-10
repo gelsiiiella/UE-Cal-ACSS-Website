@@ -1035,7 +1035,8 @@ p{
     font-size: 2vw;
     margin-bottom: 10px;
     text-align: center;
-    font-family:'Merriweather'
+    font-family:'Merriweather';
+    color: #000;
 }
 
 .blog-article img {
@@ -2012,7 +2013,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: calc(100% - 55px); 
+    width: calc(100% - 22px); 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
