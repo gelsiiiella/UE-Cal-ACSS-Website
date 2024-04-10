@@ -274,35 +274,6 @@ header > a > img:nth-child(1){
     font-size: 12px;
 }
 
-.section6{
-    grid-area: 5 / 1 / 5 / 13;
-    display: flex;
-}
-.section6 > p{
-    color: white;
-    margin-top: 1%;
-    margin-left: 1%;
-    font-size: 14px;
-    overflow: hidden;
-    white-space: nowrap;
-}
-#text12, #text13, #text14, #text15, #text16,#text17, #text18, #text19, #text20{
-    margin-right: 2%;
-} 
-#text12, #text13, #text14, #text15, #text16,#text17, #text18, #text19, #text20, #text21{
-    padding: 10px;
-    border: 2px solid #255c1d;
-    border-radius: 20px;
-    animation: slide 5s linear infinite alternate-reverse;
-} 
-@keyframes slide {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(65%);
-    }
-}
 
 .section7{
     grid-area: 6 / 1 / 6 / 13;
