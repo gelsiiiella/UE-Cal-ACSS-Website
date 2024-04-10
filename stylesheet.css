@@ -1800,7 +1800,6 @@ a{
     font-size:11dvh;
 }
 .dev{
-    background-color: rgb(45, 39, 39);
     display:flex;
     height:100dvh;
     align-items: center;
@@ -1834,13 +1833,13 @@ a{
     border-radius: 100px;
 }
 .tp1{
-    background-image: url(mark1.jpg);
+    background-image: url('Assets/mark1.jpg');
 }
 .tp2{
-    background-image: url(ange.JPG);
+    background-image: url('Assets/ange.jpg');
 }
 .tp3{
-    background-image: url(lyka2.jpg);
+    background-image: url('Assets/lyka.jpg');
 }
 
 
@@ -1874,13 +1873,13 @@ a{
     width:95%;
 }
 .ip1{
-    background-image: url(mark2.jpg);
+    background-image: url('Assets/mark2.jpg');
 }
 .ip2{
-    background-image: url(ange2.JPG);
+    background-image: url('Assets/ange2.JPG');
 }
 .ip3{
-    background-image: url(lyka.jpg);
+    background-image: url('Assets/lyka2.jpg');
 }
 
 
