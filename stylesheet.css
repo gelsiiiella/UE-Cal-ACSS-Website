@@ -1915,7 +1915,6 @@ span b{
 .section-content {
     grid-column: 2 / span 8;
     margin-top: 20px;
-    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
 }
