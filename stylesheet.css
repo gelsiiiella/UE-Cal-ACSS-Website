@@ -1784,7 +1784,7 @@ a{
 
 
 .main{
-    background-image: url(devpagebg.png);
+    background-image: url('Assets/devpagebg.png');
     display: flex;
     align-items: center;
     justify-content: center;
