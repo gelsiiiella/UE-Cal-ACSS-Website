@@ -5,10 +5,9 @@
     margin:0;
 }
 html {
-    background-color: antiquewhite;
-    background-image: url('Assets/SplashBg.png');
     background-size: cover;
     height: 100%;
+    animation: changeBackground 10s infinite alternate-reverse ease-in-out;
 }
 body {
     margin: 0;
@@ -31,6 +30,14 @@ body {
     color: bisque;
     padding-top: 20px;
     font-family:'Merriweather';
+    background: linear-gradient(90deg, rgba(37,92,29,1) 0%, rgba(37,92,29,1) 0%, rgba(17,17,17,1) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0).18;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 10;
+    animation: flare 6s infinite;
 }
 #button{
     border: 1px solid white;
@@ -40,4 +47,30 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     background-color: rgb(0, 0, 0,.5);
+    border-radius: 20px;
 }  
+@keyframes flare {
+    0% {
+        box-shadow: 0 0 0px 0px rgba(0, 128, 0, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 20px 10px rgba(0, 128, 0, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 0px 0px rgba(0, 128, 0, 0.6);
+    }
+}
+@keyframes changeBackground {
+    0% {
+        background-color: antiquewhite;
+        background-image: url('Assets/1.png');
+    }
+    50% {
+        background-color: skyblue;
+        background-image: url('Assets/2.png');
+    }
+    100% {
+        background-color: lightcoral;
+        background-image: url('Assets/3.png');
+    }
+}
