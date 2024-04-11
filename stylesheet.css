@@ -1901,6 +1901,7 @@ a{
 }
 .ip2{
     background-image: url('Assets/ange2.JPG');
+    z-index: 10;
 }
 .ip3{
     background-image: url('Assets/lyka2.jpg');
@@ -1909,7 +1910,7 @@ a{
 
 
 .marleft{
-    margin-left:-30px;
+    margin-left:-10px;
 }
 .marright{
     margin-right:-50px;
