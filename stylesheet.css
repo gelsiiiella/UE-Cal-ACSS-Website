@@ -4,6 +4,7 @@
 
 *{
     text-align: justify;
+    color: white;
 }
 
 body{
@@ -564,7 +565,7 @@ p{
     border: 1px solid rgba(255, 255, 255, 0).18;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     font-size: 1.3vw;
-    color: #666;
+    color: #fff;
     
 }
 
@@ -601,7 +602,7 @@ p{
     border: 1px solid rgba(255, 255, 255, 0).18;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     font-size: 1.3vw;
-    color: #666;
+    color: #fff;
     
 }
 
