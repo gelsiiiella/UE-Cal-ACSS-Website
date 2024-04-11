@@ -711,7 +711,7 @@ p{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.reports .news-article h3 {
+.reports .news-article h5 {
     color: #fff;
     font-family: "Montserrat";
     grid-column: 2/span 12;
